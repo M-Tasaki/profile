@@ -1,0 +1,91 @@
+body {
+  background-image: url('r2.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family:'Times New Roman', Times, serif;
+  color: white;
+  text-align: center;
+}
+
+#intro img {
+  width: 200px;
+  border-radius: 5%;
+  margin-top: 10px;
+}
+
+#intro, #button, #socials {
+  background-color: #212121;
+  max-width: 400px;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+
+#socials ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  background-color: #0077B5;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+.button-link.instagram {
+  background-color: #E4405F;
+}
+
+.button-link:hover {
+  background-color: #005582;
+}
+
+.button-link.instagram:hover {
+  background-color: #C13584;
+}
+
+#tail-white {
+  background-color: white;
+  color: white;
+  max-width: 400px;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+#tail-black {
+  background-color: #212121;
+  color: #212121;
+  max-width: 400px;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+/* think of mobile width とか。最初はモバイルユーザー
+Inspect使って */
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
